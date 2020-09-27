@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex9</title>
+</head>
+<body>
+<script>
+    function checkCharacter(character, arrs) {
+        let count = 0;
+        for (let i in arrs) {
+            if (character === arrs[i]) {
+                count++
+            }
+        }
+        if (count) {
+            return count++
+        } else {
+            return -1;
+        }
+    }
+    let a = 9;
+    let arr = [1,2,3,5,13,23,12,12,12];
+    alert(checkCharacter(a,arr));
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ex3</title>
+</head>
+<body>
+<script>
+   function caculateFactorial(number) {
+       let result = 1;
+       for (let i = 1; i <= number; i++) {
+           result *= i;
+       }
+       return result;
+   }
+   let number1 = +prompt("enter a number");
+   let result = caculateFactorial(number1);
+   alert(result);
+
+</script>
+</body>
+</html>
